@@ -16,6 +16,7 @@ class KimoyoOjuARView(context: Context) : FrameLayout(context) {
     private var cameraPreview: CameraPreviewView? = null
     private var glSurface: KimoyoOjuSurfaceView? = null
     private var arEnabled = false
+    private var passthroughMode: String = "native"
     private val handler = Handler(Looper.getMainLooper())
 
     init {
@@ -30,6 +31,10 @@ class KimoyoOjuARView(context: Context) : FrameLayout(context) {
     }
 
     fun enableAR() {
+        if (passthroughMode == "vision") {
+            Log.i("KimoyoOjuARView", "Skipping native camera preview (Vision passthrough enabled)")
+            return
+        }
         if (arEnabled) return
         arEnabled = true
         Log.i("KimoyoOjuARView", "Enabling AR mode - starting camera")
@@ -63,6 +68,13 @@ class KimoyoOjuARView(context: Context) : FrameLayout(context) {
     }
 
     fun getGLSurface(): KimoyoOjuSurfaceView? = glSurface
+
+    fun setPassthroughMode(mode: String) {
+        passthroughMode = mode
+        if (passthroughMode == "vision") {
+            disableAR()
+        }
+    }
 
     fun setXRMode(mode: String) {
         Log.i("KimoyoOjuARView", "setXRMode called with: $mode")
