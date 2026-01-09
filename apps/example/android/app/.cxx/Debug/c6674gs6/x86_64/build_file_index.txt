@@ -1,0 +1,2 @@
+/Users/mikevocalz/viro-nitro/node_modules/react-native-nitro-modules/android/build/generated/source/codegen/jni/CMakeLists.txt
+/Users/mikevocalz/viro-nitro/node_modules/react-native/ReactAndroid/cmake-utils/default-app-setup/CMakeLists.txt

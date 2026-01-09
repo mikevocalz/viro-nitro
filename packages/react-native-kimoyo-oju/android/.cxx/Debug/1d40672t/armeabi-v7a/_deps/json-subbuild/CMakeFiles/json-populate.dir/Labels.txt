@@ -1,0 +1,14 @@
+# Target labels
+ json-populate
+# Source files and their labels
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/armeabi-v7a/_deps/json-subbuild/CMakeFiles/json-populate
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/armeabi-v7a/_deps/json-subbuild/CMakeFiles/json-populate.rule
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/armeabi-v7a/_deps/json-subbuild/CMakeFiles/json-populate-complete.rule
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/armeabi-v7a/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-build.rule
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/armeabi-v7a/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-configure.rule
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/armeabi-v7a/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-download.rule
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/armeabi-v7a/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-install.rule
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/armeabi-v7a/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-mkdir.rule
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/armeabi-v7a/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-patch.rule
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/armeabi-v7a/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-test.rule
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/armeabi-v7a/_deps/json-subbuild/json-populate-prefix/src/json-populate-stamp/json-populate-update.rule

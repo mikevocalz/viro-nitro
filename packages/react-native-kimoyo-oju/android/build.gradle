@@ -1,0 +1,105 @@
+buildscript {
+    repositories {
+        google()
+        mavenCentral()
+    }
+    dependencies {
+        classpath 'com.android.tools.build:gradle:8.1.0'
+        classpath 'org.jetbrains.kotlin:kotlin-gradle-plugin:1.9.0'
+    }
+}
+
+def reactNativeArchitectures() {
+    def value = rootProject.getProperties().get("reactNativeArchitectures")
+    return value ? value.split(",") : ["armeabi-v7a", "x86", "x86_64", "arm64-v8a"]
+}
+
+def getExtOrDefault(name) {
+    return rootProject.ext.has(name) ? rootProject.ext.get(name) : project.properties["KimoyoOju_" + name]
+}
+
+def getExtOrIntegerDefault(name) {
+    return rootProject.ext.has(name) ? rootProject.ext.get(name) : (project.properties["KimoyoOju_" + name]).toInteger()
+}
+
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+// Apply Nitrogen autolinking
+apply from: '../nitrogen/generated/android/KimoyoOjuNitro+autolinking.gradle'
+
+android {
+    namespace 'com.margelo.nitro.kimoyooju'
+    
+    ndkVersion getExtOrDefault("ndkVersion")
+    compileSdkVersion getExtOrIntegerDefault("compileSdkVersion")
+
+    defaultConfig {
+        minSdkVersion getExtOrIntegerDefault("minSdkVersion")
+        targetSdkVersion getExtOrIntegerDefault("targetSdkVersion")
+
+        externalNativeBuild {
+            cmake {
+                cppFlags "-frtti -fexceptions -Wall -fstack-protector-all"
+                arguments "-DANDROID_STL=c++_shared", "-DANDROID_SUPPORT_FLEXIBLE_PAGE_SIZES=ON"
+                abiFilters(*reactNativeArchitectures())
+            }
+        }
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled false
+        }
+        debug {
+            externalNativeBuild {
+                cmake {
+                    cppFlags "-O1 -g"
+                }
+            }
+        }
+    }
+
+    externalNativeBuild {
+        cmake {
+            path "src/main/cpp/CMakeLists.txt"
+        }
+    }
+
+    buildFeatures {
+        buildConfig true
+        prefab true
+        prefabPublishing true
+    }
+
+    prefab {
+        KimoyoOjuNitro {
+            headers "../cpp"
+        }
+    }
+
+    compileOptions {
+        sourceCompatibility JavaVersion.VERSION_17
+        targetCompatibility JavaVersion.VERSION_17
+    }
+
+    kotlinOptions {
+        jvmTarget = '17'
+    }
+
+    sourceSets {
+        main {
+            java.srcDirs = ['src/main/java', '../nitrogen/generated/android/kotlin']
+        }
+    }
+}
+
+repositories {
+    google()
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'com.facebook.react:react-android'
+    implementation project(':react-native-nitro-modules')
+}

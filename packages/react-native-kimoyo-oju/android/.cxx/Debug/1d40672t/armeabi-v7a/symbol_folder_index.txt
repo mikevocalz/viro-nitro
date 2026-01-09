@@ -1,0 +1,1 @@
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/build/intermediates/cxx/Debug/1d40672t/obj/armeabi-v7a

@@ -1,0 +1,6 @@
+/Users/mikevocalz/viro-nitro/apps/example/android/app/.cxx/Debug/c6674gs6/x86_64/NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir/NitroModulesSpec-generated.cpp.o
+/Users/mikevocalz/viro-nitro/apps/example/android/app/.cxx/Debug/c6674gs6/x86_64/NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir/react/renderer/components/NitroModulesSpec/ComponentDescriptors.cpp.o
+/Users/mikevocalz/viro-nitro/apps/example/android/app/.cxx/Debug/c6674gs6/x86_64/NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir/react/renderer/components/NitroModulesSpec/EventEmitters.cpp.o
+/Users/mikevocalz/viro-nitro/apps/example/android/app/.cxx/Debug/c6674gs6/x86_64/NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir/react/renderer/components/NitroModulesSpec/Props.cpp.o
+/Users/mikevocalz/viro-nitro/apps/example/android/app/.cxx/Debug/c6674gs6/x86_64/NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir/react/renderer/components/NitroModulesSpec/ShadowNodes.cpp.o
+/Users/mikevocalz/viro-nitro/apps/example/android/app/.cxx/Debug/c6674gs6/x86_64/NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir/react/renderer/components/NitroModulesSpec/States.cpp.o

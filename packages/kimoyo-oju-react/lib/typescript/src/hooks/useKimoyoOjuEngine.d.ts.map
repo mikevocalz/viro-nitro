@@ -1,0 +1,1 @@
+{"version":3,"file":"useKimoyoOjuEngine.d.ts","sourceRoot":"","sources":["../../../../src/hooks/useKimoyoOjuEngine.ts"],"names":[],"mappings":"AACA,OAAO,EAAmB,KAAK,MAAM,EAAE,KAAK,aAAa,EAAE,KAAK,cAAc,EAAE,MAAM,yBAAyB,CAAA;AAE/G;;GAEG;AACH,wBAAgB,kBAAkB;oBACC,aAAa;mBAId,MAAM;6BAII,cAAc;iBAI1B,OAAO;kBAKN,OAAO;oBAKH,MAAM,KAAG,OAAO;kBAKpB,OAAO;EAcvC"}

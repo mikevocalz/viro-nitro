@@ -1,0 +1,10 @@
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/armeabi-v7a/CMakeFiles/KimoyoOjuNitro.dir
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/armeabi-v7a/CMakeFiles/edit_cache.dir
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/armeabi-v7a/CMakeFiles/rebuild_cache.dir
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/armeabi-v7a/_deps/glm-build/CMakeFiles/edit_cache.dir
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/armeabi-v7a/_deps/glm-build/CMakeFiles/rebuild_cache.dir
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/armeabi-v7a/_deps/glm-build/glm/CMakeFiles/glm.dir
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/armeabi-v7a/_deps/glm-build/glm/CMakeFiles/edit_cache.dir
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/armeabi-v7a/_deps/glm-build/glm/CMakeFiles/rebuild_cache.dir
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/armeabi-v7a/_deps/json-build/CMakeFiles/edit_cache.dir
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/armeabi-v7a/_deps/json-build/CMakeFiles/rebuild_cache.dir

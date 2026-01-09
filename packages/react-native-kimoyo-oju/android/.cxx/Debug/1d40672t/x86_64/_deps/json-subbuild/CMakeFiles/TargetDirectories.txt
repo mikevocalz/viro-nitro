@@ -1,0 +1,3 @@
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/x86_64/_deps/json-subbuild/CMakeFiles/json-populate.dir
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/x86_64/_deps/json-subbuild/CMakeFiles/edit_cache.dir
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/x86_64/_deps/json-subbuild/CMakeFiles/rebuild_cache.dir

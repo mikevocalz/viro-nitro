@@ -1,0 +1,4 @@
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/x86/_deps/glm-src/CMakeLists.txt
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/x86/_deps/glm-src/glm/CMakeLists.txt
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/.cxx/Debug/1d40672t/x86/_deps/json-src/CMakeLists.txt
+/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/src/main/cpp/CMakeLists.txt

@@ -1,0 +1,13 @@
+# ninja log v5
+5	2519	1767981506645245885	CMakeFiles/appmodules.dir/OnLoad.cpp.o	28a618c68f529202
+5	2397	1767981506525835503	NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir/react/renderer/components/NitroModulesSpec/ComponentDescriptors.cpp.o	8cfd10670cc22028
+6	2296	1767981506426190982	NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir/react/renderer/components/NitroModulesSpec/ShadowNodes.cpp.o	786e9b51d7835a0e
+5	2307	1767981506434220286	CMakeFiles/appmodules.dir/Users/mikevocalz/viro-nitro/apps/example/android/app/build/generated/autolinking/src/main/jni/autolinking.cpp.o	e5f64db9d67f9f13
+0	14	0	clean	7db6269cb976e3bf
+6	2262	1767981506391456015	NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir/react/renderer/components/NitroModulesSpec/Props.cpp.o	fcb83913cbc6f85b
+5	1721	1767981505854623065	NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir/react/renderer/components/NitroModulesSpec/EventEmitters.cpp.o	c00605e3d596d349
+5	2150	1767981506275082804	NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir/NitroModulesSpec-generated.cpp.o	a4becaee73acb41a
+6	1503	1767981505636177372	NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir/react/renderer/components/NitroModulesSpec/States.cpp.o	c7279ef3f1734120
+2519	2610	1767981506734198515	/Users/mikevocalz/viro-nitro/apps/example/android/app/build/intermediates/cxx/Debug/c6674gs6/obj/x86/libappmodules.so	5c30b9dac0813a57
+1	13	0	/Users/mikevocalz/viro-nitro/apps/example/android/app/.cxx/Debug/c6674gs6/x86/CMakeFiles/cmake.verify_globs	ac9f8e3457de059b
+0	13	0	/Users/mikevocalz/viro-nitro/apps/example/android/app/.cxx/Debug/c6674gs6/x86/CMakeFiles/cmake.verify_globs	ac9f8e3457de059b

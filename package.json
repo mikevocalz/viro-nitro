@@ -1,0 +1,28 @@
+{
+  "name": "kimoyo-oju-monorepo",
+  "private": true,
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "scripts": {
+    "build": "yarn workspaces foreach -A run build",
+    "lint": "yarn workspaces foreach -A run lint",
+    "typescript": "yarn workspaces foreach -A run typescript",
+    "clean": "yarn workspaces foreach -A run clean",
+    "test": "yarn workspaces foreach -A run test",
+    "example": "yarn workspace kimoyo-oju-example start"
+  },
+  "devDependencies": {
+    "prettier": "^3.4.0",
+    "typescript": "^5.7.0"
+  },
+  "resolutions": {
+    "react": "19.2.0",
+    "react-native": "0.83.1"
+  },
+  "packageManager": "yarn@4.0.0",
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}

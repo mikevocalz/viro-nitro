@@ -1,0 +1,16 @@
+# ninja log v5
+6	3813	1767989199151932851	CMakeFiles/KimoyoOjuNitro.dir/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/cpp/engine/Engine.cpp.o	df7091d3fa1a6b15
+6	4490	1767981388474859178	_deps/glm-build/glm/CMakeFiles/glm.dir/detail/glm.cpp.o	8bb94a31b3dd5b92
+4491	4562	1767981388579985000	_deps/glm-build/glm/libglm.a	6b248fdfb3e4f5f9
+0	2848	1767981386852554270	CMakeFiles/KimoyoOjuNitro.dir/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/cpp/HybridKimoyoOjuEngineFactory.cpp.o	1a3d332872e35242
+3	2868	1767981386872675008	CMakeFiles/KimoyoOjuNitro.dir/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/nitrogen/generated/android/KimoyoOjuNitroOnLoad.cpp.o	7c87e03dae61bc49
+1	2013	1767981386018646512	CMakeFiles/KimoyoOjuNitro.dir/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/cpp/engine/SceneNode.cpp.o	5513fe39b83be14c
+5	1612	1767988433175264149	CMakeFiles/KimoyoOjuNitro.dir/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/cpp/HybridKimoyoOjuEngine.cpp.o	52c8bcc9b8d35a8d
+5	772	1767988432341843690	CMakeFiles/KimoyoOjuNitro.dir/KimoyoOjuJNI.cpp.o	87c8ae49bab43c00
+2	765	1767981384754507627	CMakeFiles/KimoyoOjuNitro.dir/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/cpp/engine/Camera.cpp.o	e83b8dc805a8f744
+6	920	1767985806088176292	CMakeFiles/KimoyoOjuNitro.dir/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/cpp/engine/Geometry.cpp.o	844437c7ef61937b
+3813	3916	1767989199273186051	/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/build/intermediates/cxx/Debug/1d40672t/obj/x86/libKimoyoOjuNitro.so	2c87c75fcfeff140
+4	289	1767981384301960259	CMakeFiles/KimoyoOjuNitro.dir/KimoyoOjuOnLoad.cpp.o	f8b8387c54fd91bd
+5	791	1767986845951712817	CMakeFiles/KimoyoOjuNitro.dir/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/cpp/engine/Renderer.cpp.o	d65ece85429a9f02
+2	607	1767981384620081348	CMakeFiles/KimoyoOjuNitro.dir/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/cpp/engine/Light.cpp.o	566b216b3470bcfc
+4	4299	1767981388293809789	CMakeFiles/KimoyoOjuNitro.dir/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/nitrogen/generated/shared/c++/HybridKimoyoOjuEngineSpec.cpp.o	20e5edd3f1fa52ed

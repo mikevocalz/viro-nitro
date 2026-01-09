@@ -1,0 +1,12 @@
+{
+  "cxxNamespace": ["kimoyooju"],
+  "ios": {
+    "iosModuleName": "KimoyoOjuNitro"
+  },
+  "android": {
+    "androidNamespace": ["kimoyooju"],
+    "androidCxxLibName": "KimoyoOjuNitro"
+  },
+  "autolinking": {},
+  "sourcePath": "./nitrogen/src/specs"
+}

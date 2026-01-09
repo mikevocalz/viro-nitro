@@ -1,0 +1,59 @@
+{
+  "name": "@kimoyo-oju/react",
+  "version": "0.1.0",
+  "description": "React components for Kimoyo Oju 3D/XR renderer",
+  "main": "lib/commonjs/index.js",
+  "module": "lib/module/index.js",
+  "types": "lib/typescript/src/index.d.ts",
+  "react-native": "src/index.ts",
+  "source": "src/index.ts",
+  "files": [
+    "src",
+    "lib",
+    "!**/__tests__",
+    "!**/__fixtures__",
+    "!**/__mocks__"
+  ],
+  "scripts": {
+    "build": "bob build",
+    "typescript": "tsc --noEmit",
+    "lint": "eslint \"**/*.{js,ts,tsx}\"",
+    "clean": "del-cli lib",
+    "prepack": "bob build"
+  },
+  "keywords": [
+    "react-native",
+    "kimoyo-oju",
+    "3d",
+    "xr",
+    "vr",
+    "ar"
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "@types/react": "^19.0.0",
+    "del-cli": "^6.0.0",
+    "eslint": "^9.17.0",
+    "react-native-builder-bob": "^0.35.0",
+    "typescript": "^5.7.0"
+  },
+  "peerDependencies": {
+    "react": ">=19.0.0",
+    "react-native": ">=0.83.0",
+    "react-native-kimoyo-oju": ">=0.1.0"
+  },
+  "react-native-builder-bob": {
+    "source": "src",
+    "output": "lib",
+    "targets": [
+      "commonjs",
+      "module",
+      [
+        "typescript",
+        {
+          "project": "tsconfig.build.json"
+        }
+      ]
+    ]
+  }
+}

@@ -1,0 +1,16 @@
+# ninja log v5
+6	3608	1767989204004793541	CMakeFiles/KimoyoOjuNitro.dir/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/cpp/engine/Engine.cpp.o	e154ab1b6cbcdd7e
+1	4642	1767981423063598369	_deps/glm-build/glm/CMakeFiles/glm.dir/detail/glm.cpp.o	da421965426a40c1
+4642	4715	1767981423169573000	_deps/glm-build/glm/libglm.a	6b248fdfb3e4f5f9
+3	4647	1767981423076199929	CMakeFiles/KimoyoOjuNitro.dir/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/nitrogen/generated/shared/c++/HybridKimoyoOjuEngineSpec.cpp.o	d3059f5cdf30187c
+3608	3881	1767989204269347042	/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/android/build/intermediates/cxx/Debug/1d40672t/obj/x86_64/libKimoyoOjuNitro.so	360610f3ea15b1b
+2	3206	1767981421647307429	CMakeFiles/KimoyoOjuNitro.dir/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/cpp/HybridKimoyoOjuEngineFactory.cpp.o	b46e1fd236a8c460
+2	3185	1767981421629098569	CMakeFiles/KimoyoOjuNitro.dir/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/nitrogen/generated/android/KimoyoOjuNitroOnLoad.cpp.o	90afe497a8b6fd7
+8	2299	1767981420743389736	CMakeFiles/KimoyoOjuNitro.dir/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/cpp/engine/SceneNode.cpp.o	8943d1b1b2e0e399
+6	837	1767988437556607611	CMakeFiles/KimoyoOjuNitro.dir/KimoyoOjuJNI.cpp.o	cf0f9343197e0227
+6	1545	1767988438260393737	CMakeFiles/KimoyoOjuNitro.dir/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/cpp/HybridKimoyoOjuEngine.cpp.o	e2e4327519696795
+5	736	1767986850755927230	CMakeFiles/KimoyoOjuNitro.dir/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/cpp/engine/Renderer.cpp.o	35b80ab6a309439f
+14	661	1767981419099315380	CMakeFiles/KimoyoOjuNitro.dir/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/cpp/engine/Light.cpp.o	df9d639d8b80d0ed
+10	891	1767981419339693814	CMakeFiles/KimoyoOjuNitro.dir/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/cpp/engine/Camera.cpp.o	4d36fb874223a213
+6	964	1767985810866440467	CMakeFiles/KimoyoOjuNitro.dir/Users/mikevocalz/viro-nitro/packages/react-native-kimoyo-oju/cpp/engine/Geometry.cpp.o	49561a70fb2d1533
+0	394	1767981418843783091	CMakeFiles/KimoyoOjuNitro.dir/KimoyoOjuOnLoad.cpp.o	575e739fb67c5521

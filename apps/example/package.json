@@ -1,0 +1,31 @@
+{
+  "name": "kimoyo-oju-example",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "quest": "react-native run-android --variant=questDebug"
+  },
+  "dependencies": {
+    "@kimoyo-oju/react": "workspace:*",
+    "react": "19.2.0",
+    "react-native": "0.83.1",
+    "react-native-kimoyo-oju": "workspace:*",
+    "react-native-nitro-modules": "^0.32.1"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.26.0",
+    "@babel/preset-env": "^7.26.0",
+    "@babel/runtime": "^7.26.0",
+    "@react-native-community/cli": "^18.0.0",
+    "@react-native-community/cli-platform-android": "^18.0.0",
+    "@react-native-community/cli-platform-ios": "^18.0.0",
+    "@react-native/babel-preset": "0.83.0",
+    "@react-native/metro-config": "0.83.0",
+    "@react-native/typescript-config": "0.83.0",
+    "@types/react": "^19.0.0",
+    "typescript": "^5.7.0"
+  }
+}

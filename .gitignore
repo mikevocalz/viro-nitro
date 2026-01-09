@@ -1,0 +1,47 @@
+# Dependencies
+node_modules/
+
+# Build outputs
+**/build/
+**/dist/
+*.apk
+*.aab
+*.ipa
+
+# Android
+**/android/.gradle/
+**/android/app/build/
+**/android/build/
+*.so
+
+# iOS
+**/ios/Pods/
+**/ios/build/
+*.xcworkspace
+DerivedData/
+
+# IDE
+.idea/
+*.iml
+.vscode/
+
+# Logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.env.local
+.env.*.local
+
+# Turborepo
+.turbo/
+
+# Misc
+*.tgz

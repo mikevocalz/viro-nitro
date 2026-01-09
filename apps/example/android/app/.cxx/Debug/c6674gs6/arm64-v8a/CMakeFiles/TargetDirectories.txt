@@ -1,0 +1,6 @@
+/Users/mikevocalz/viro-nitro/apps/example/android/app/.cxx/Debug/c6674gs6/arm64-v8a/CMakeFiles/appmodules.dir
+/Users/mikevocalz/viro-nitro/apps/example/android/app/.cxx/Debug/c6674gs6/arm64-v8a/CMakeFiles/edit_cache.dir
+/Users/mikevocalz/viro-nitro/apps/example/android/app/.cxx/Debug/c6674gs6/arm64-v8a/CMakeFiles/rebuild_cache.dir
+/Users/mikevocalz/viro-nitro/apps/example/android/app/.cxx/Debug/c6674gs6/arm64-v8a/NitroModulesSpec_autolinked_build/CMakeFiles/react_codegen_NitroModulesSpec.dir
+/Users/mikevocalz/viro-nitro/apps/example/android/app/.cxx/Debug/c6674gs6/arm64-v8a/NitroModulesSpec_autolinked_build/CMakeFiles/edit_cache.dir
+/Users/mikevocalz/viro-nitro/apps/example/android/app/.cxx/Debug/c6674gs6/arm64-v8a/NitroModulesSpec_autolinked_build/CMakeFiles/rebuild_cache.dir
