@@ -32,6 +32,11 @@ class KimoyoOjuSurfaceView @JvmOverloads constructor(
         setEGLConfigChooser(8, 8, 8, 8, 24, 0)
         holder.setFormat(PixelFormat.TRANSLUCENT)
         setZOrderOnTop(true)
+
+        isFocusable = true
+        isFocusableInTouchMode = true
+        isClickable = true
+        requestFocus()
         
         setRenderer(this)
         renderMode = RENDERMODE_CONTINUOUSLY
@@ -83,22 +88,22 @@ class KimoyoOjuSurfaceView @JvmOverloads constructor(
     }
 
     override fun onTouchEvent(event: MotionEvent): Boolean {
+        val action = when (event.action) {
+            MotionEvent.ACTION_DOWN -> 0
+            MotionEvent.ACTION_UP -> 1
+            MotionEvent.ACTION_MOVE -> 2
+            else -> -1
+        }
         if (nativeHandle != 0L) {
-            val action = when (event.action) {
-                MotionEvent.ACTION_DOWN -> 0
-                MotionEvent.ACTION_UP -> 1
-                MotionEvent.ACTION_MOVE -> 2
-                else -> -1
-            }
             if (action >= 0) {
                 val result = nativeHandleTouch(nativeHandle, event.x, event.y, action)
                 if (result[0] == 1) { // hit
-                    onTouchListener?.invoke(event.x, event.y, event.action)
+                    onTouchListener?.invoke(event.x, event.y, action)
                     return true
                 }
             }
         }
-        val handled = onTouchListener?.invoke(event.x, event.y, event.action) ?: false
+        val handled = onTouchListener?.invoke(event.x, event.y, action) ?: false
         return handled || super.onTouchEvent(event)
     }
 

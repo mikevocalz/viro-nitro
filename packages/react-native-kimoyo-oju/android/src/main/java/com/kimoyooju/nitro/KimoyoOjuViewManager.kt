@@ -16,6 +16,11 @@ class KimoyoOjuViewManager : SimpleViewManager<KimoyoOjuARView>() {
     fun setMode(view: KimoyoOjuARView, mode: String?) {
         mode?.let { view.setXRMode(it) }
     }
+
+    @ReactProp(name = "passthrough")
+    fun setPassthrough(view: KimoyoOjuARView, passthrough: String?) {
+        view.setPassthroughMode(passthrough ?: "native")
+    }
     
     override fun onDropViewInstance(view: KimoyoOjuARView) {
         view.getGLSurface()?.pause()
